@@ -37,7 +37,7 @@ function Thumb({ item }: { item: MediaItem }) {
   const cls = "w-20 h-20 object-cover bg-deep shrink-0";
   if (item.type === "image") return /* eslint-disable-next-line @next/next/no-img-element */ <img src={item.src} alt="" className={cls} />;
   if (toEmbed(item.src)) return <div className={`${cls} flex items-center justify-center text-xs text-white/60`}>Embed</div>;
-  return <video src={item.src} className={cls} muted playsInline preload="metadata" />;
+  return <video src={`${item.src}#t=0.001`} className={cls} muted playsInline webkit-playsinline="true" preload="metadata" />;
 }
 
 export default function Dashboard() {

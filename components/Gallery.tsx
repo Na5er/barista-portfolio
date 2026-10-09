@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import SmartVideo from "./SmartVideo";
 import SectionHead from "./SectionHead";
 import { useI18n } from "@/lib/i18n";
 import { categories, toEmbed, type Category, type MediaItem } from "@/lib/media";
@@ -9,7 +10,7 @@ function VideoView({ src, controls = false }: { src: string; controls?: boolean 
   const embed = toEmbed(src);
   return embed
     ? <iframe src={embed} className="w-full h-full" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title={t.gallery.videoTitle} />
-    : <video src={src} className="w-full h-full object-cover" controls={controls} muted={!controls} playsInline preload="metadata" />;
+    : <div className="relative w-full h-full"><SmartVideo src={src} controls={controls} className="w-full h-full object-cover" /></div>;
 }
 
 export default function Gallery({ items, ready }: { items: MediaItem[]; ready: boolean }) {

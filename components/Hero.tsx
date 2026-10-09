@@ -1,5 +1,6 @@
 "use client";
 import Bean from "./Bean";
+import SmartVideo from "./SmartVideo";
 import { profile } from "@/lib/data";
 import { useI18n } from "@/lib/i18n";
 
@@ -7,7 +8,7 @@ export default function Hero() {
   const { t } = useI18n();
   return (
     <section className="relative isolate min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden">
-      <video src="/media/hero.mp4" poster="/media/espresso-bar.jpg" autoPlay loop muted playsInline preload="auto" className="object-cover w-full h-full absolute inset-0 -z-10" />
+      <SmartVideo src="/media/hero.mp4" poster="/media/espresso-bar.jpg" preload="auto" hideButton className="object-cover w-full h-full absolute inset-0 -z-10" />
       <div className="absolute inset-0 bg-black/60" />
       <p className="label hidden sm:block absolute left-6 top-1/2 -translate-y-1/2 [writing-mode:vertical-rl] rotate-180 text-[10px]">{t.common.fullName}</p>
       <p className="label hidden sm:block absolute right-6 top-1/2 -translate-y-1/2 [writing-mode:vertical-rl] text-[10px]">{t.common.portfolio}</p>

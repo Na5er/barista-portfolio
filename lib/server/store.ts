@@ -44,7 +44,11 @@ async function read(): Promise<MediaItem[]> {
   }
 }
 
-export const listMedia = () => locked(read);
+// Public listing never fails: if Blob is missing, empty or unreachable, visitors still see the bundled media.
+export const listMedia = () => locked(async () => {
+  try { return await read(); }
+  catch (e) { console.error("Blob read failed, serving bundled media:", (e as Error).message); return [...(seedMedia as unknown as MediaItem[])]; }
+});
 
 export const addMedia = (item: MediaItem) => locked(async () => {
   const items = await read();

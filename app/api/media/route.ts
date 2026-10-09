@@ -42,6 +42,8 @@ export async function POST(req: NextRequest) {
 
   const picked = asCategory(b.category);
   const category = type === "video" ? "video" : picked && picked !== "video" ? picked : "latte";
-  const item = await addMedia({ id: crypto.randomUUID(), type, category, title, notes, location, src });
+  let item;
+  try { item = await addMedia({ id: crypto.randomUUID(), type, category, title, notes, location, src }); }
+  catch (e) { return NextResponse.json({ error: `Storage error: ${(e as Error).message}. Check that a Blob store is connected (BLOB_READ_WRITE_TOKEN).` }, { status: 500 }); }
   return NextResponse.json(item, { status: 201 });
 }

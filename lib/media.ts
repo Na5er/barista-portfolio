@@ -1,5 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
+import { seedMedia } from "./data";
 import type { MediaItem } from "./mediaTypes";
 
 export { categories, toEmbed } from "./mediaTypes";
@@ -14,8 +15,13 @@ export function useMedia() {
   const refresh = useCallback(async () => {
     try {
       const r = await fetch("/api/media", { cache: "no-store" });
-      if (r.ok) { setItems(await r.json()); setReady(true); }
-    } catch {}
+      if (!r.ok) throw new Error(String(r.status));
+      setItems(await r.json());
+    } catch {
+      // API unreachable: keep whatever is shown, or fall back to the bundled media on first load.
+      setItems((cur) => (cur.length ? cur : (seedMedia as unknown as MediaItem[])));
+    }
+    setReady(true);
   }, []);
 
   useEffect(() => {

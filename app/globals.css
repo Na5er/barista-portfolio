@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-ink text-white font-sans antialiased; }
+html[lang="ar"] body { font-family: var(--font-arabic), var(--font-sans), system-ui, sans-serif; }
+/* Letter-spacing and uppercase break Arabic letter joining, so switch them off. */
+html[lang="ar"] * { letter-spacing: 0 !important; text-transform: none !important; }
+:focus-visible { outline: 2px solid #FFC15A; outline-offset: 3px; }
+.label { @apply uppercase tracking-[0.3em] text-xs sm:text-sm font-bold; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto } }

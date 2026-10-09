@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Ahmed Nasser · Barista Portfolio",
+    "description": "Latte art, specialty coffee and cafe experience. Istanbul & Oman."
+  },
+  "common": {
+    "name": "Ahmed Nasser",
+    "fullName": "Ahmed Nasser Mohammed",
+    "portfolio": "Barista Portfolio",
+    "language": "Language"
+  },
+  "nav": {
+    "intro": "Intro",
+    "skills": "Skills",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Barista",
+    "title2": "Portfolio",
+    "location": "Istanbul & Oman",
+    "viewPortfolio": "View portfolio",
+    "getInTouch": "Get in touch",
+    "downloadResume": "Download resume"
+  },
+  "toc": {
+    "title1": "Table Of",
+    "title2": "Contents",
+    "items": {
+      "intro": "Introduction",
+      "skills": "Personal Skills",
+      "experience": "Work Experiences",
+      "portfolio": "Portfolio",
+      "brews": "Signature Brews",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "Introduction",
+    "yearsLabel": "Years on the bar",
+    "summary": "Barista since 2020 across Istanbul and Oman. I pair milk-texturing and espresso discipline with a graphic-design degree, so every cup is balanced in taste and in look.",
+    "education": "Education",
+    "educationValue": "Bachelor of Design, İstanbul Topkapı University (2022–2024), GPA 3.65",
+    "languages": "Languages",
+    "languagesValue": "Arabic, English, Turkish",
+    "certifications": "Certifications",
+    "certificationsEmpty": "Add yours in lib/data.ts",
+    "equipment": "Equipment",
+    "equipmentValue": "Espresso machines, Grinder calibration, Milk steaming, Pour over, Cold brew"
+  },
+  "skills": {
+    "title": "Personal Skills",
+    "items": [
+      { "name": "Latte art", "note": "Heart, tulip, rosetta, swan" },
+      { "name": "Espresso extraction", "note": "Dose, yield, time, taste" },
+      { "name": "Machine & grinder calibration", "note": "Daily dial-in and cleaning" },
+      { "name": "Customer service", "note": "Fast, warm, multilingual" }
+    ]
+  },
+  "experience": {
+    "title": "Work Experiences",
+    "role": "Barista",
+    "items": {
+      "countryhouse": { "city": "Oman", "note": "Hot drinks and latte art on a busy cafe bar." },
+      "locker": { "city": "Salalah, Oman", "note": "Espresso bar and customer service." },
+      "ira": { "city": "Beylikdüzü, Istanbul", "note": "Coffee service beside an artisan bakery." },
+      "jalal": { "city": "Istanbul", "note": "Turkish coffee and espresso drinks." }
+    }
+  },
+  "gallery": {
+    "title": "Portfolio",
+    "categories": {
+      "all": "All",
+      "latte": "Latte Art",
+      "filter": "Filter & Pour Over",
+      "workspace": "Coffee Shops / Workspaces",
+      "video": "Videos"
+    },
+    "empty": "Nothing here yet.",
+    "close": "Close",
+    "videoTitle": "Video",
+    "seed": {
+      "s1": { "title": "Four Lattes: Heart & Swan", "notes": "Café Latte" },
+      "s2": { "title": "Rosetta & Heart Tray", "notes": "Café Latte" },
+      "s3": { "title": "Swan Pour", "notes": "Hot Spanish Latte" },
+      "s4": { "title": "Heart Latte", "notes": "Café Latte" },
+      "s5": { "title": "Window Corner", "notes": "Dine-in service" },
+      "s6": { "title": "Espresso Bar", "notes": "Gaggia machine, cup stacks" },
+      "s7": { "title": "Table Service", "notes": "Order-ready cups" },
+      "v1": { "title": "Milk Pouring 1", "notes": "Latte art" },
+      "v2": { "title": "Milk Pouring 2", "notes": "Latte art" },
+      "v3": { "title": "Milk Pouring 3", "notes": "Latte art" },
+      "v4": { "title": "Milk Pouring 4", "notes": "Latte art" },
+      "v5": { "title": "Ahmed Nasser", "notes": "Barista" }
+    },
+    "seedLocation": { "Istanbul": "Istanbul" }
+  },
+  "brews": {
+    "title": "Signature Brews",
+    "items": [
+      { "name": "Café Latte", "desc": "Velvet milk, rosetta pour." },
+      { "name": "Hot Spanish Latte", "desc": "Sweet condensed milk, double shot." },
+      { "name": "Cortado", "desc": "Equal parts espresso and milk." },
+      { "name": "Cold Brew", "desc": "Steeped slow, served clean." }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Open to barista roles, events and latte art collaborations.",
+    "location": "Haramidere, Istanbul, Turkey",
+    "whatsapp": "Chat on WhatsApp",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "mailSubject": "Portfolio message from {name}",
+    "mailFrom": "From"
+  },
+  "footer": {
+    "admin": "Admin"
+  }
+}

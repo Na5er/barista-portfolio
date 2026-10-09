@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Ahmed Nasser · Barista Portföyü",
+    "description": "Latte art, özel kahve ve kafe deneyimi. İstanbul ve Umman."
+  },
+  "common": {
+    "name": "Ahmed Nasser",
+    "fullName": "Ahmed Nasser Mohammed",
+    "portfolio": "Barista Portföyü",
+    "language": "Dil"
+  },
+  "nav": {
+    "intro": "Giriş",
+    "skills": "Yetenekler",
+    "experience": "Deneyim",
+    "portfolio": "Portföy",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title1": "Barista",
+    "title2": "Portföyü",
+    "location": "İstanbul ve Umman",
+    "viewPortfolio": "Portföyü gör",
+    "getInTouch": "İletişime geç",
+    "downloadResume": "Özgeçmişi indir"
+  },
+  "toc": {
+    "title1": "İçindekiler",
+    "title2": "",
+    "items": {
+      "intro": "Giriş",
+      "skills": "Kişisel Yetenekler",
+      "experience": "İş Deneyimi",
+      "portfolio": "Portföy",
+      "brews": "İmza Kahveler",
+      "contact": "İletişim"
+    }
+  },
+  "about": {
+    "title": "Giriş",
+    "yearsLabel": "Barda geçen yıl",
+    "summary": "2020'den beri İstanbul ve Umman'da baristayım. Süt köpürtme ve espresso disiplinini grafik tasarım eğitimiyle birleştiriyorum; böylece her fincan hem lezzet hem de görünüm olarak dengeli olur.",
+    "education": "Eğitim",
+    "educationValue": "Tasarım Lisansı, İstanbul Topkapı Üniversitesi (2022–2024), Not ortalaması 3,65",
+    "languages": "Diller",
+    "languagesValue": "Arapça, İngilizce, Türkçe",
+    "certifications": "Sertifikalar",
+    "certificationsEmpty": "Kendi sertifikalarınızı lib/data.ts dosyasına ekleyin",
+    "equipment": "Ekipman",
+    "equipmentValue": "Espresso makineleri, Değirmen kalibrasyonu, Süt buharlama, Pour over, Cold brew"
+  },
+  "skills": {
+    "title": "Kişisel Yetenekler",
+    "items": [
+      { "name": "Latte art", "note": "Kalp, lale, rosetta, kuğu" },
+      { "name": "Espresso ekstraksiyonu", "note": "Doz, verim, süre, lezzet" },
+      { "name": "Makine ve değirmen kalibrasyonu", "note": "Günlük ayar ve temizlik" },
+      { "name": "Müşteri hizmetleri", "note": "Hızlı, samimi, çok dilli" }
+    ]
+  },
+  "experience": {
+    "title": "İş Deneyimi",
+    "role": "Barista",
+    "items": {
+      "countryhouse": { "city": "Umman", "note": "Yoğun bir kafe barında sıcak içecekler ve latte art." },
+      "locker": { "city": "Salale, Umman", "note": "Espresso barı ve müşteri hizmetleri." },
+      "ira": { "city": "Beylikdüzü, İstanbul", "note": "Zanaatkâr fırının yanında kahve servisi." },
+      "jalal": { "city": "İstanbul", "note": "Türk kahvesi ve espresso bazlı içecekler." }
+    }
+  },
+  "gallery": {
+    "title": "Portföy",
+    "categories": {
+      "all": "Tümü",
+      "latte": "Latte Art",
+      "filter": "Filtre ve Pour Over",
+      "workspace": "Kafeler / Çalışma Alanları",
+      "video": "Videolar"
+    },
+    "empty": "Henüz burada bir şey yok.",
+    "close": "Kapat",
+    "videoTitle": "Video",
+    "seed": {
+      "s1": { "title": "Dört Latte: Kalp ve Kuğu", "notes": "Café Latte" },
+      "s2": { "title": "Rosetta ve Kalp Tepsisi", "notes": "Café Latte" },
+      "s3": { "title": "Kuğu Dökümü", "notes": "Sıcak İspanyol Latte" },
+      "s4": { "title": "Kalp Latte", "notes": "Café Latte" },
+      "s5": { "title": "Pencere Köşesi", "notes": "Masada servis" },
+      "s6": { "title": "Espresso Barı", "notes": "Gaggia makinesi, bardak yığınları" },
+      "s7": { "title": "Masa Servisi", "notes": "Servise hazır bardaklar" },
+      "v1": { "title": "Süt Dökümü 1", "notes": "Latte art" },
+      "v2": { "title": "Süt Dökümü 2", "notes": "Latte art" },
+      "v3": { "title": "Süt Dökümü 3", "notes": "Latte art" },
+      "v4": { "title": "Süt Dökümü 4", "notes": "Latte art" },
+      "v5": { "title": "Ahmed Nasser", "notes": "Barista" }
+    },
+    "seedLocation": { "Istanbul": "İstanbul" }
+  },
+  "brews": {
+    "title": "İmza Kahveler",
+    "items": [
+      { "name": "Café Latte", "desc": "Kadife süt, rosetta dökümü." },
+      { "name": "Sıcak İspanyol Latte", "desc": "Tatlı yoğunlaştırılmış süt, çift shot." },
+      { "name": "Cortado", "desc": "Eşit miktarda espresso ve süt." },
+      { "name": "Cold Brew", "desc": "Yavaş demlenir, sade servis edilir." }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "intro": "Barista pozisyonlarına, etkinliklere ve latte art iş birliklerine açığım.",
+    "location": "Haramidere, İstanbul, Türkiye",
+    "whatsapp": "WhatsApp'tan yaz",
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Mesaj gönder",
+    "mailSubject": "{name} kişisinden portföy mesajı",
+    "mailFrom": "Gönderen"
+  },
+  "footer": {
+    "admin": "Yönetim"
+  }
+}

@@ -16,8 +16,8 @@ export const profile = {
 export const timeline = [
   { id: "countryhouse", place: "Countryhouse.om", period: "2025 – 2026" },
   { id: "locker", place: "Locker Cafe", period: "2021 – 2022" },
-  { id: "ira", place: "Ira Artisan Bakery", period: "2024 – 2025" },
-  { id: "jalal", place: "Jalal Efendi Kuru Kahvesi", period: "2022 – 2024" },
+  { id: "ira", place: "Ira Bakery", period: "2024 – 2025" },
+  { id: "jalal", place: "Jalal Efendi", period: "2022 – 2024" },
 ] as const;
 
 // Certifications: the CV lists none, so add only the ones you actually hold.

@@ -16,7 +16,7 @@ export default function Experience() {
               <li key={x.id} className="relative ps-8 pb-4">
                 <span className="absolute start-0 top-0 h-full w-px bg-white" /><span className="absolute -start-[3px] top-0 w-[7px] h-[7px] rounded-full bg-white" />
                 <p className="text-amber text-5xl font-bold tracking-widest"><span dir="ltr" className="inline-block">0{i + 1}.</span></p>
-                <h3 className="mt-6 text-xl font-bold">{x.place}</h3>
+                <h3 className="mt-6 text-xl font-bold">{d.name}</h3>
                 <p className="text-white/70">{t.experience.role}, {d.city}</p>
                 <p className="label mt-3 text-amber text-[10px]"><span dir="ltr" className="inline-block">{x.period}</span></p>
                 <p className="mt-3 text-sm text-white/70">{d.note}</p>

@@ -62,10 +62,10 @@
     "title": "Work Experiences",
     "role": "Barista",
     "items": {
-      "countryhouse": { "city": "Oman", "note": "Hot drinks and latte art on a busy cafe bar." },
-      "locker": { "city": "Salalah, Oman", "note": "Espresso bar and customer service." },
-      "ira": { "city": "Beylikdüzü, Istanbul", "note": "Coffee service beside an artisan bakery." },
-      "jalal": { "city": "Istanbul", "note": "Turkish coffee and espresso drinks." }
+      "countryhouse": { "name": "Countryhouse.om", "city": "Oman", "note": "Hot drinks and latte art on a busy cafe bar." },
+      "locker": { "name": "Locker Cafe", "city": "Salalah, Oman", "note": "Espresso bar and customer service." },
+      "ira": { "name": "Ira Bakery", "city": "Beylikdüzü, Istanbul", "note": "Coffee service beside an artisan bakery." },
+      "jalal": { "name": "Jalal Efendi", "city": "Istanbul", "note": "Turkish coffee and espresso drinks." }
     }
   },
   "gallery": {

@@ -62,10 +62,10 @@
     "title": "İş Deneyimi",
     "role": "Barista",
     "items": {
-      "countryhouse": { "city": "Umman", "note": "Yoğun bir kafe barında sıcak içecekler ve latte art." },
-      "locker": { "city": "Salale, Umman", "note": "Espresso barı ve müşteri hizmetleri." },
-      "ira": { "city": "Beylikdüzü, İstanbul", "note": "Zanaatkâr fırının yanında kahve servisi." },
-      "jalal": { "city": "İstanbul", "note": "Türk kahvesi ve espresso bazlı içecekler." }
+      "countryhouse": { "name": "Countryhouse.om", "city": "Umman", "note": "Yoğun bir kafe barında sıcak içecekler ve latte art." },
+      "locker": { "name": "Locker Cafe", "city": "Salale, Umman", "note": "Espresso barı ve müşteri hizmetleri." },
+      "ira": { "name": "Ira Bakery", "city": "Beylikdüzü, İstanbul", "note": "Zanaatkâr fırının yanında kahve servisi." },
+      "jalal": { "name": "Jalal Efendi", "city": "İstanbul", "note": "Türk kahvesi ve espresso bazlı içecekler." }
     }
   },
   "gallery": {
